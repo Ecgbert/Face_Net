@@ -77,7 +77,7 @@ class CustomModel(object):
         new_model = Model(inputs=model.input, outputs=x)
         self._model = new_model
 
-# 論文中提出之架構
+# 提出之架構
 class Dense_FaceLiveNet(CustomModel):
     def __init__(self, activate='swish', use_dense_block=True, use_global_average_pool=True):
         # 初始化
