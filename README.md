@@ -1,2 +1,2 @@
 # Face_Net
-Inception for Facial Experssion on Keras and TensorFlow
+Dense Resnet for Facial Experssion on Keras and TensorFlow
